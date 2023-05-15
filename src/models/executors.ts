@@ -33,7 +33,7 @@ export type ExecutorMeta = {
 interface ExecutorsState {
   executorsList: Executor[];
   executorsFeaturesMap: EntityMap<ExecutorFeature[]>;
-  currentExecutor?: Executor;
+  currentExecutorName?: string;
 }
 
 export type {ExecutorsState, Executor, ExecutorFeature};
